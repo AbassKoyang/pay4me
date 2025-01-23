@@ -11,10 +11,8 @@
 }
 
 body {
+  width: 100dvw;
+  overflow-x: hidden;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: pink;
+  background-color: #F9FAFF;
 }

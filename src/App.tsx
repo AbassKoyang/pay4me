@@ -1,9 +1,12 @@
-import './App.css'
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
 
 function App() {
 
   return (
-    <main className='bg-primarygray'>
+    <main className='w-screen min-h-screen bg-secondarygray'>
+      <Header />
+      <Hero />
     </main>
   )
 }
