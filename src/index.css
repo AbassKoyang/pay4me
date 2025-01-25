@@ -16,3 +16,42 @@ body {
   margin: 0;
   background-color: #F9FAFF;
 }
+
+.sponsors-container-1{
+  animation: translateForward 3s ease-in-out 3s infinite alternate;
+}
+.sponsors-container-2{
+  animation: translateBackward 3s ease-in-out 3s infinite alternate;
+}
+.play-button{
+  animation: pulse 3s ease-in-out 0s infinite forwards;
+}
+
+@keyframes translateForward{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(100px);
+  }
+}
+@keyframes translateBackward{
+  0%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@keyframes pulse{
+  0%{
+    border: 1px solid #80D727;
+  }
+  100%{
+    border: 5px solid #80D727;
+  }
+}
+
+.box-1 {
+  clip-path: content-box;
+}
