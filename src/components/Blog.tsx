@@ -20,13 +20,13 @@ const Blog = () => {
             <div className='overflow-x-auto h-dhv mt-5 md:mt-0'>
                 <div className='w-[180vw] md:w-fit flex gap-7'>
                 <div className='w-[90vw] md:max-w-[380px]'>
-                    <img src='/src/assets/images/blog-1.png' className='w-[330px] md:w-fit'/>
+                    <img src='/images/blog-1.png' className='w-[330px] md:w-fit'/>
                     <h3 className='font-semibold text-[19px] text-black/80 leading-[1.3] mt-3 max-w-[330px] md:max-w-380px]'>How to Navigate International Payments for Education Without Stress</h3>
                     <p className='font-normal text-[18px] text-black/80 leading-[1.3] mt-3 max-w-[330px] md:max-w-380px]'>Studying abroad can be an exciting journey, but it comes with its fair share</p>
                     <Button text='Read More' containerClass='mt-7 bg-white border-primarygreen border' />
                 </div>
                 <div className='w-[90vw] md:max-w-[380px]'>
-                    <img src='/src/assets/images/blog-1.png' className='w-[330px] md:w-fit'/>
+                    <img src='/images/blog-1.png' className='w-[330px] md:w-fit'/>
                     <h3 className='font-semibold text-[19px] text-black/80 leading-[1.3] mt-3  max-w-[330px] md:max-w-380px]'>How to Navigate International Payments for Education Without Stress</h3>
                     <p className='font-normal text-[18px] text-black/80 leading-[1.3] mt-3  max-w-[330px] md:max-w-380px]'>Studying abroad can be an exciting journey, but it comes with its fair share</p>
                     <Button text='Read More' containerClass='mt-7 bg-white border-primarygreen border' />

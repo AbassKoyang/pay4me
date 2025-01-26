@@ -10,14 +10,14 @@ const Download = () => {
 
                     <div className='flex gap-3 mt-8'>
                         <button className='p-1 bg-black rounded-md flex gap-3 items-center'>
-                            <img src='/src/assets/images/Playstore.svg' className='size-8' />
+                            <img src='/images/Playstore.svg' className='size-8' />
                             <p className='text-white flex flex-col items-start'>
                                 <span className='text-[10px]'>GET It ON</span>
                                 <span className='text-sm font-semibold'>Google Play</span>
                             </p>
                         </button>
                         <button className='p-1 bg-black rounded-md flex gap-3 items-center'>
-                            <img src='/src/assets/images/Apple.svg' className='size-8' />
+                            <img src='/images/Apple.svg' className='size-8' />
                             <p className='text-white flex flex-col items-start'>
                                 <span className='text-[10px]'>Download on the</span>
                                 <span className='text-sm font-semibold'>App Store</span>
@@ -27,11 +27,11 @@ const Download = () => {
                 </div>
 
                 <div className='z-20 relative md:h-full mt-6 md:mt-0 flex flex-col justify-end bg-blue-100'>
-                    <img src='/src/assets/images/device-2.png' className='md:w-fit' />
-                    <img src='/src/assets/images/qr.png' className='hidden md:block absolute left-[-130px] bottom-0 md:w-fit' />
+                    <img src='/images/device-2.png' className='md:w-fit' />
+                    <img src='/images/qr.png' className='hidden md:block absolute left-[-130px] bottom-0 md:w-fit' />
                 </div>
 
-                <img src='/src/assets/images/ellipse-2.png' className='absolute bottom-0 left-0 z-10' />
+                <img src='/images/ellipse-2.png' className='absolute bottom-0 left-0 z-10' />
             </div>
         </div>
     </ section>

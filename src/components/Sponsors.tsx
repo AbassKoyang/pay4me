@@ -7,19 +7,19 @@ const Sponsors = () => {
             <div className='h-full w-[80px] md:w-[120px] bg-gradient-to-r from-blue-100 via-blue-100/90 to-blue-100/10 absolute top-0 left-0' />
             <div className='h-full w-[80px] md:w-[120px] bg-gradient-to-l from-blue-100 via-blue-100/90 to-blue-100/10 absolute top-0 right-0' />
             <div className='sponsors-container-1 w-full md:w-[85%] flex items-center justify-center gap-6 md:gap-16'>
-                <img src='/src/assets/images/image 15monify.png' className='w-16 md:w-fit'/>
-                <img src='/src/assets/images/image 5across.png' className='w-16 md:w-fit'/>
-                <img src='/src/assets/images/image 6mpower.png' className='w-16 md:w-fit'/>
-                <img src='/src/assets/images/image 7prodigy.png' className='w-16 md:w-fit'/>
-                <img src='/src/assets/images/image 8techstar.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 15monify.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 5across.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 6mpower.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 7prodigy.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 8techstar.png' className='w-16 md:w-fit'/>
             </div>
             <div className='sponsors-container-2 w-full md:w-[85%] flex items-center justify-center gap-4 md:gap-16 mt-8 md:mt-16'>
-                <img src='/src/assets/images/image 16seerbit.png' className='w-16 md:w-fit'/>
-                <img src='/src/assets/images/image 17verto.png' className='w-16 md:w-fit'/>
-                <img src='/src/assets/images/image 9stripe.png' className='w-16 md:w-fit'/>
-                <img src='/src/assets/images/image 10paystack.png' className='w-16 md:w-fit'/>
-                <img src='/src/assets/images/image 11providus.png' className='w-16 md:w-fit'/>
-                <img src='/src/assets/images/image 18smile.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 16seerbit.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 17verto.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 9stripe.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 10paystack.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 11providus.png' className='w-16 md:w-fit'/>
+                <img src='/images/image 18smile.png' className='w-16 md:w-fit'/>
             </div>
         </div>
     </div>

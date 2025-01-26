@@ -6,16 +6,16 @@ const Footer = () => {
             <div className='md:h-full flex flex-col justify-between'>
                 <div>
                     <a className='flex items-center gap-2' href="#">
-                    <img src='/src/assets/images/Logo.png' />
+                    <img src='/images/Logo.png' />
                     <p className='text-sm text-black font-poppins font-bold'>Pay4Me App</p>
                     </a>
                     <p className='text-xs md:text-[18px] md:leading-[1.3] text-black/60 font-poppins max-w-xs mt-4'>© 2020-2024 Pay4Me, Inc.</p>
                 </div>
                 <div className='mt-5 md:mt-0 flex items-center gap-2'>
-                    <img src='/src/assets/images/twitter.svg' />
-                    <img src='/src/assets/images/facebook.svg' />
-                    <img src='/src/assets/images/instagram.svg' />
-                    <img src='/src/assets/images/linkedin.svg' />
+                    <img src='/images/twitter.svg' />
+                    <img src='/images/facebook.svg' />
+                    <img src='/images/instagram.svg' />
+                    <img src='/images/linkedin.svg' />
                 </div>
             </div>
             <div className='mt-8 md:mt-0 flex flex-col md:flex-row gap-8 md:gap-14'>
