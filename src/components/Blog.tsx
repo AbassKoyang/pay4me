@@ -1,10 +1,10 @@
-import {useRef, useEffect, useState} from 'react'
+import {useEffect, useState} from 'react'
 import Button from './Button';
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { IoIosArrowRoundBack} from "react-icons/io";
 import { Navigation , A11y } from 'swiper/modules';
 
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
