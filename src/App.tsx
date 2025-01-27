@@ -13,7 +13,7 @@ import OverlappingText from './components/OverlappingText.tsx';
 function App() {
 
   return (
-    <main className='w-screen min-h-screen bg-secondarygray'>
+    <main className='min-h-screen bg-secondarygray relative'>
       <Header />
       <Hero />
       <Sponsors />

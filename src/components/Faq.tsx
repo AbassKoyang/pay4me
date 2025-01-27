@@ -10,14 +10,14 @@ const Faq = () => {
         }
     }
   return (
-    <section className='w-full min-h-screen w-full flex justify-center bg-white px-6 md:px-24 py-24 relative'>
+    <section className='w-full min-h-screen md:min-h-fit lg:min-h-screen w-full flex justify-center bg-white px-6 lg:px-24 py-24 relative'>
         <div className='w-full max-w-[1400px] flex flex-col md:flex-row md:justify-between'>
             <img src='/images/Ellipse.png' className='absolute bottom-0 left-0 z-0 md:z-10' />
 
             <div className='max-w-[445px] relative'>
                 <h2 className='text-3xl md:text-[46px] leading-[30px] md:leading-[51px] font-semibold font-poppins'>FAQ</h2>
                 <p className='font-normal text-[18px] text-black/80 leading-[1.5] mt-3'>Answers to your most pressing Pay4me App Questions. We've Got you!</p>
-                <img src='/images/faq-arrow.svg' className='hidden md:block absolute top-30 right-[-100px]' />
+                <img src='/images/faq-arrow.svg' className='hidden md:block absolute w-[300px] lg:w-fit top-30 md:left-[0px] lg:right-[-100px] z-20' />
             </div>
             <div className='flex flex-col gap-5 w-full md:w-[600px] mt-5 md:mt-0 z-20'>
                 <div className='w-full rounded-lg bg-primarygray p-4'>

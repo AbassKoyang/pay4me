@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <footer className='w-full h-fit w-full flex justify-center bg-white px-6 md:px-24 py-12'>
+    <footer className='w-full h-fit w-full flex justify-center bg-white px-6 lg:px-24 py-12'>
         <div className='w-full md:h-[286px] max-w-[1400px] flex flex-col md:flex-row justify-between'>
             <div className='md:h-full flex flex-col justify-between'>
                 <div>
@@ -19,21 +19,21 @@ const Footer = () => {
                 </div>
             </div>
             <div className='mt-8 md:mt-0 flex flex-col md:flex-row gap-8 md:gap-14'>
-                <div className='flex flex-col gap-5 md:gap-9'>
+                <div className='flex flex-col gap-5 lg:gap-9'>
                     <h4 className='text-[20px] font-semibold text-black'>Company</h4>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>About</a>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>Blog</a>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>FAQs</a>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>Support</a>
                 </div>
-                <div className='flex flex-col gap-5 md:gap-9'>
+                <div className='flex flex-col gap-5 lg:gap-9'>
                     <h4 className='text-[20px] font-semibold text-black'>Legal</h4>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>Terms of Service</a>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>Order Cancellation aolicy</a>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>Privacy Policy</a>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>KYC/AML Policy</a>
                 </div>
-                <div className='flex flex-col gap-5 md:gap-9'>
+                <div className='flex flex-col gap-5 lg:gap-9'>
                     <h4 className='text-[20px] font-semibold text-black'>Resources</h4>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>Android Reviews</a>
                     <a href='#' className='text-[18px] font-semibold text-black/60 hover:text-black'>IOS Reviews</a>

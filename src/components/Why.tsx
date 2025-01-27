@@ -1,10 +1,10 @@
 import Button from './Button';
 const Why = () => {
   return (
-    <section className='w-full min-h-screen w-full flex justify-center bg-secondarygray px-6 md:px-0 py-24'>
-        <div className='w-full h-[500px] max-w-[1400px] flex md:px-24'>
-            <div className='size-full rounded-2xl overflow-hidden relative'>
-                <img src='/images/why.jpg' className='scale-[3] md:scale-100 absolute left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] z-10' />
+    <section className='w-full min-h-screen md:min-h-fit lg:min-h-screen w-full flex items-center justify-center bg-secondarygray px-6 md:px-0 py-24'>
+        <div className='w-full h-[500px] max-w-[1400px] flex md:px-24 items-center justify-center'>
+            <div className='size-full rounded-2xl overflow-hidden relative px-6 md:px-12 lg:px-0'>
+                <img src='/images/why.jpg' className='scale-[3] md:scale-[2] absolute left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] z-10' />
                 <div className='size-full bg-black/60 absolute top-0 left-0 z-20' />
 
                 <div className='w-full absolute z-30 flex flex-col items-center left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%]'>
