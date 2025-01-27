@@ -39,7 +39,6 @@ const Blog = () => {
             className='w-full md:w-[65%] md:h-full flex flex items-center justify-center mt-5 md:mt-0'
             modules={[Navigation, A11y]}
             loop
-            autoPlay
             resistance
             grabCursor
             keyboard
@@ -53,7 +52,7 @@ const Blog = () => {
                             <img src='/images/blog-1.png' className='w-full md:w-fit'/>
                             <h3 className='font-semibold text-[19px] text-black/80 leading-[1.3] mt-3 max-w-full md:max-w-380px]'>How to Navigate International Payments for Education Without Stress</h3>
                             <p className='font-normal text-[18px] text-black/80 leading-[1.3] mt-3 max-w-full md:max-w-380px]'>Studying abroad can be an exciting journey, but it comes with its fair share</p>
-                            <Button onClick={() => swiper.slideNext()} text='Read More' containerClass='mt-7 bg-white border-primarygreen border' />
+                            <Button text='Read More' containerClass='mt-7 bg-white border-primarygreen border' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide  className='w-full'>
