@@ -1,12 +1,24 @@
 import Button from './Button';
 import {useState} from 'react';
+import gsap from 'gsap';
+import {useGSAP} from '@gsap/react';
 
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  useGSAP(() => {
+    const tl = gsap.timeline();
+    tl.from('.navbar',{
+        y: -100,
+        opacity: 0,
+        ease: 'power1.inOut',
+        duration: 1,
+    })
+}, [])
+
   return (
     <div className='w-full h-fit md:h-20 flex items-center justify-center bg-transparent fixed top-3 md:top-0 left-0 z-[1000]'>
-      <header className='flex flex-col items-center justify-center w-[95%] md:max-w-[1400px] h-fit md:h-16 bg-black rounded-xl px-2 md:px-6 py-[14px] md:py-[19px]'>
+      <header className='navbar opacity-1 flex flex-col items-center justify-center w-[95%] md:max-w-[1400px] h-fit md:h-16 bg-black rounded-xl px-2 md:px-6 py-[14px] md:py-[19px]'>
           <div className='w-full h-full flex items-center justify-between'>
           <a className='flex items-center gap-2' href="#">
               <img src='/images/Logo.png' />
